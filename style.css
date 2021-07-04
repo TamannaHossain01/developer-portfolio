@@ -64,20 +64,27 @@ h2{
 
 
 }
-#web-dev-exp
-{
-    border-left: 7px  solid;
-    border-image-slice: 1;
-    border-image: linear-gradient(blue cyan);
-}
+
 #full-stack-experience
 {
     border-left: 7px  solid;
+    border-image: linear-gradient( blue, cyan );
     border-image-slice: 1;
-    border-image: linear-gradient(to left blue cyan );
-
+    
 
 }
+#web-dev-exp
+{
+    border-left: 7px  solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    
+    
+}
+    
+    
+
+
 footer p {
     text-align: center;
 }
