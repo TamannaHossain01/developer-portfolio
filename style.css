@@ -5,19 +5,23 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color {
     color: orange;
     
 }
 .flexible-container{
-    display: flex
+    display: flex;
+    /*margin-bottom  150px;*/
     
 
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
-    margin-bottom: 150px;
+   margin-bottom: 150px;
     padding-right: 5px;
 }
 .half-width img{
@@ -40,4 +44,22 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item
+{
+    height: 407px;
+    width: 80%;
+    margin-left:  5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+
+
 }
